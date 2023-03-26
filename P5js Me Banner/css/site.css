@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.8em;
+    font-family: 'Lora', serif;
+    overflow-x: hidden;
+}
+
+url {
+    position: absolute;
+}
+
+#wrapper {
+    position: absolute;
+    z-index: 500;
+}
+#siteNav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+}
+#siteNav ul li {
+    display: inline;
+    font-family: sans-serif;
+    font-weight: 1em;
+    
+}
+#siteNav ul li a {
+    padding: 10px 20px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+button {
+    background: none;
+    border: 2px rgba(224, 215, 0, 0.71) solid;
+    font-family: sans-serif;
+      padding: 10px 20px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s;
+    
+}
+
+button:hover {
+    background: rgba(224, 215, 0, 0.71);
+}
+
+
+#siteNav ul li a current:hover {
+    background: rgba(224, 215, 0, 0.71);
+}
+
+#siteNav ul li a:hover {
+    background: #e3e3e3;
+    color: #333;
+}
+
+header {
+    padding: 20px 20px 20px 20px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vmin;
+}
+
+.logo {
+    float: left;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+
+}
+.logo img {
+    max-width: 150px;
+
+}
+.menu {
+    float: right;
+    padding: 10px 80px 80px;
+    text-align: right;
+}
+
+
+/*
+.button {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    color: #333;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px #333 solid;
+    transition: all 0.5s;
+}
+.button:hover {
+    background: #fdebeb;
+    color: #fff;
+}
+*/
+
+
+.cell {
+    /*
+    background-color: rgb(220, 220, 220);
+    height: 200px;
+*/
+    padding: 20px;
+    width: 75%;
+    text-align: center;
+ 
+}
+
+.grid-4-col {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 20px;
+    text-align: center;
+}
+
+.grid-4-col h2 {
+    font-size: 13pt;
+    text-transform: uppercase;  
+    color: #0d0d98;
+    font-family: sans-serif;
+}
+
+.anothergrid {
+    width: 80%;
+/*    height: 100%;*/
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 15%;
+    text-align: center;
+    word-wrap: break-word;
+    justify-content: center;
+/*
+    overflow: hidden;
+    word-wrap: break-word;
+*/
+    font-family: sans-serif;
+    
+}
+
+
+.cell3 {
+    
+/*    background-color: rgb(220, 220, 220);*/
+    height: 200px;
+
+    padding: 15px;
+    margin: 0% 50% 0 0;
+    word-wrap: break-word;
+    width: 65%;
+    text-align: center;
+    overflow: hidden;
+    
+ 
+}
+
+
+
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p5js</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="javascript.js"></script>
+    <script language="javascript" type="text/javascript" src="p5.collide2d.min.js"></script>
+
+    <!--    Load Font      -->
+<link href="https://fonts.googleapis.com/css?family=Lora:700i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/site.css">
+    <script language="javascript" type="text/javascript" src="sketch.js"></script>
+
+    <style>
+        html,
+        body {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            background: #ffffff;
+            background-image: url("Artboard 2.png");
+            position: flex;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!--    //**//**idea: have a button so that random facts about me are generated -->
+    <div id="wrapper">
+        <header>
+            <div class="logo"><img src="logo2.png" alt="Ivy Minjung Koo - UX Storyteller"></div>
+            <nav class="menu" id="siteNav">
+                <ul>
+                    <li><button onclick="newQuote(); newQuote2(); newQuote3()">About</button></li>
+<!--                    <li><a href="index.html" class="current">About</a></li>-->
+                    <li><a href="">Works</a></li>
+                    <li><a href="">Contact</a></li>
+                    
+                   
+                </ul>
+            </nav>
+            
+               <div class="grid-4-col news">
+            <div class="cell">
+                <h2>Choose your starter</h2>
+            </div>
+            <div class="cell">
+
+                <h2>Choose your starter</h2>
+            </div>
+            <div class="cell">
+
+                <h2>Choose your starter</h2>
+            </div>
+            </div>
+        
+             <div class="anothergrid">
+<!--    quotes about me-->
+        <div class="cell3">
+                <p id="quoteDisplay">I am a UX storyteller interested in the experiences of people.</p>
+            </div>
+           <div class="cell3">
+         <p id="quoteDisplay2">I want to create interactive stories to bring attention to socio-political issues.</p>
+         </div>
+         <div class="cell3">
+         <p id="quoteDisplay3">I discovered my love for storytelling as a kid when my family would often move for their work. I grew to love my imaginary friends when I was alone.</p>
+         </div>
+           
+    </div>
+        </header>
+        
+       
+    </div>
+
+</body>
+
+</html>
